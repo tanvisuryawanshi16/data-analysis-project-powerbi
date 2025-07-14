@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Messages | Firebase</title>
+    <link rel="stylesheet" href="./style1.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" id="contactForm">
+            <div class="alert">Your message sent</div>
+
+
+    <h1>Certificate Generator User Input Survey</h1>
+    <div>
+        Enter Your Email id :
+        <input type="email" required>
+        </input>
+     </div>
+     <div>
+        Enter Your Name:
+        <input type="text" required>
+        </input>
+     </div>
+     <div>
+        How much certificate do you required :
+        <input type="number" required>
+        </input>
+     </div>
+     <div>
+        Which type of certificate do you want :
+        <select name="categary">
+            <option value="Sport">Sport</option>
+            <option value="Academic">Academic</option>
+            <option value="Cultural">Culturalt</option>
+            <option value="Technical">Technical</option>
+            <option value="Art">Art</option>
+        </select>
+     </div>
+</form>
+Name of certificate holders :
+<input type="file" name="Document" accept=".pdf,.docs,.docx">
+</input>
+<div>
+    <input type="submit"> Submit 
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail.js"></script>
+</body>
+
+</html>
